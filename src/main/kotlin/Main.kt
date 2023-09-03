@@ -24,8 +24,10 @@ fun App() {
     }
 }
 
+
+
 fun main() = application {
     Window(onCloseRequest = ::exitApplication) {
-        App()
+        ChessBoard()
     }
 }
