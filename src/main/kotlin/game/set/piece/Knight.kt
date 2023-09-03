@@ -1,9 +1,10 @@
-package game.piece
+package game.set.piece
 
 import game.board.Board
 import game.board.Cell
+import game.set.Color
 
-class King(override val color: Color) : Piece {
+class Knight(override val color: Color) : Piece {
 
     override fun getPossibleTargetCells(
         board: Board,
@@ -13,4 +14,3 @@ class King(override val color: Color) : Piece {
     }
 
 }
-

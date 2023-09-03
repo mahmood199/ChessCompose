@@ -1,7 +1,8 @@
-package game.piece
+package game.set.piece
 
 import game.board.Board
 import game.board.Cell
+import game.set.Color
 
 class Rook(override val color: Color) : Piece {
 

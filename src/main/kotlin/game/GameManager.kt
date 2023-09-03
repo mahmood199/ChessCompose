@@ -1,7 +1,7 @@
 package game
 
 import game.board.Cell
-import game.piece.Piece
+import game.set.piece.Piece
 
 class GameManager() {
 

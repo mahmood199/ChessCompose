@@ -1,4 +1,4 @@
-package game.piece
+package game.set
 
 enum class Color {
     White,
